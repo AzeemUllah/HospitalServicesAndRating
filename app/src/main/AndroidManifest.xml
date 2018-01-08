@@ -10,22 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".EditProfile"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
             android:name=".IntroScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_intro_screen"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".SplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_screen2"
-            android:theme="@style/FullscreenTheme">
-
-        </activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".Login"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_login"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".SignupPhaseOne"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".SignupPhaseTwo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_signup_phase_two"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Chat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,259 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="hospital.hospital.SignupPhaseTwo">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        android:keepScreenOn="true"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:src="@drawable/header"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/header"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logoheader"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            />
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9.92">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="15dp"
+            android:layout_weight=".1"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <Spinner
+            android:id="@+id/locationSp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight=".01"
+            android:layout_marginRight="20dp"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/location"
+            android:theme="@style/EditTextTheme"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_weight=".1"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_weight=".01"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextTheme"
+            android:text="01/01/2018"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:paddingTop="20dp"
+            android:textSize="15dp"
+            android:layout_weight=".1"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_weight=".01"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="0305 2294674"
+            android:theme="@style/EditTextTheme"
+            />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:paddingTop="20dp"
+                android:textSize="15dp"
+                android:layout_weight=".1"
+                android:layout_marginLeft="20dp"
+                />
+            <RadioButton android:id="@+id/maleRbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:layout_marginRight="10dp"
+                android:buttonTint="#2fab96"
+                />
+            <RadioButton android:id="@+id/femaleRbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_marginRight="30dp"
+                android:buttonTint="#2fab96"
+                />
+        </RadioGroup>
+
+
+
+
+
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_weight=".8"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageButton
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/finishcolorbtn" />
+
+
+        <ImageButton
+            android:id="@+id/continueLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:adjustViewBounds="true"
+            android:layout_weight="0.01"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/continuelaterbtn" />
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_height="20dp"
+            />
+    </LinearLayout>
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="@string/dummy_button" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

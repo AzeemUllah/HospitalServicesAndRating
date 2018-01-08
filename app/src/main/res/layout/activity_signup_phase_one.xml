@@ -14,10 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:visibility="invisible"
+        android:visibility="visible"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
+        android:text=""
+        android:textColor="#ffffff"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -44,12 +44,33 @@
             android:layout_height="wrap_content"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="15dp"
+            android:layout_weight=".1"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:id="@+id/nameTxtb"
+            android:layout_width="match_parent"
+            android:layout_weight=".01"
+            android:layout_marginRight="20dp"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Alen Walker"
+            android:theme="@style/EditTextTheme"
+            />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
+            android:paddingTop="20dp"
             android:textSize="15dp"
             android:layout_weight=".1"
             android:layout_marginLeft="20dp"
@@ -87,8 +108,34 @@
             android:layout_marginRight="20dp"
             android:layout_height="wrap_content"
             android:theme="@style/EditTextTheme"
-            android:text="example@abc.com"
+            android:text="example"
             />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conform Password"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:layout_weight=".1"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/conformPasswordTxtb"
+            android:layout_width="match_parent"
+            android:layout_weight=".01"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextTheme"
+            android:text="example"
+            />
+
 
         <EditText
             android:layout_width="wrap_content"
@@ -107,7 +154,7 @@
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:background="@null"
-            android:src="@drawable/logincolorbtn" />
+            android:src="@drawable/nextcolorbtn" />
 
         <EditText
             android:layout_width="wrap_content"
