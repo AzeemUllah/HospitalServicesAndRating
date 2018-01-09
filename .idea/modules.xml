@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hospital.iml" filepath="$PROJECT_DIR$/Hospital.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HospitalServicesAndRating.iml" filepath="$PROJECT_DIR$/HospitalServicesAndRating.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Android Projects\HospitalServicesAndRating\Hospital.iml" filepath="F:\Android Projects\HospitalServicesAndRating\Hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HospitalServicesAndRating-renamed.iml" filepath="$PROJECT_DIR$/HospitalServicesAndRating-renamed.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

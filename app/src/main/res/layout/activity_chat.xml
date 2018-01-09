@@ -48,6 +48,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="30dp"
                     android:id="@+id/relativeLayout">
+
                     <com.pkmmte.view.CircularImageView
                         android:id="@+id/imgContact"
                         android:layout_width="50dp"
@@ -89,13 +90,24 @@
             </RelativeLayout>
         </RelativeLayout>
 
-        <EditText
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reyclerview_message_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="invisible"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
 
 
+        <!--<TextView-->
+            <!--android:text="hi man, how are you? hi man, how are you? hi man, how are you? hi man, how are you?"-->
+            <!--android:background="@drawachatsenttxtvbackgroundcolorange"-->
+            <!--android:maxEms="15"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="8dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginTop="4dp"/>-->
 
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -104,7 +116,7 @@
                 android:orientation="horizontal"
                 android:layout_weight="8"
                 android:background="#e6e6e6"
-                android:layout_alignParentTop="true"
+                android:layout_alignParentTop="false"
                 android:weightSum="10">
 
 
