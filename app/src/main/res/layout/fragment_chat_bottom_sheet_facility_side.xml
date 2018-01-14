@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:background="@null">
+
+    <!-- NOTE: This list should be displayed in a list
+    instead of nested layouts -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/chatbottomfragmainbackground"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:weightSum="3.4"
+        android:orientation="vertical"
+        android:id="@+id/imageView2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:orientation="horizontal"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="26dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cameraicon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera"
+                    android:layout_gravity="center"
+                    android:textColor="#737373"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight=".2"
+            android:src="@drawable/submenudivider"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="26dp"
+                android:layout_marginRight="32dp"
+                android:layout_gravity="center"
+                android:src="@drawable/imageicon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Image"
+                android:textColor="#737373"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight=".2"
+            android:src="@drawable/submenudivider"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_weight=".8"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="26dp"
+                android:layout_marginRight="32dp"
+                android:layout_gravity="center"
+                android:src="@drawable/locationicon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:layout_gravity="center"
+                android:textColor="#737373"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:visibility="invisible"
+        android:id="@+id/textView"
+        android:background="@android:color/transparent"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chatbottomfragcancelbackground" >
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/cancelcolorbtn"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -13,7 +13,7 @@
             android:name=".EditProfile"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_edit_profile"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".IntroScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -46,6 +46,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FacilityProfile"></activity>
     </application>
 
 </manifest>

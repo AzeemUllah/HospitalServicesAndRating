@@ -2,14 +2,18 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatMainCanvas"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hospital.hospital.Chat">
+    tools:context="hospital.hospital.Chat"
+    >
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+
         android:weightSum="10">
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,6 +119,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_weight="8"
+                android:id="@+id/chatBottomSection"
                 android:background="#e6e6e6"
                 android:layout_alignParentTop="false"
                 android:weightSum="10">
@@ -122,7 +127,7 @@
 
 
                 <ImageButton
-                    android:id="@+id/finish"
+                    android:id="@+id/moreOptionsImgBtn"
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:layout_marginRight="0dp"
