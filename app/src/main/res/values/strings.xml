@@ -26,4 +26,9 @@
     <string name="title_activity_edit_profile">EditProfile</string>
 
     <string name="title_activity_chat">Chat</string>
+
+    <string name="title_activity_contact_us">ContactUs</string>
+
+    <string name="title_activity_edit_profile_facility">EditProfileFacility</string>
+    <string name="title_activity_location">Map</string>
 </resources>

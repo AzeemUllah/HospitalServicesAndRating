@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hospital.hospital.FacilityProfileResources.FragmentFacilityProfileReviews">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:alpha="0.6"
+            android:paddingLeft="20dp"
+            android:text="Customer service"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:paddingRight="20dp"
+            android:paddingTop="01dp"
+            android:weightSum=".5">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:alpha="0.6"
+            android:paddingLeft="20dp"
+            android:text="Staff and response time"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:paddingRight="20dp"
+            android:paddingTop="01dp"
+            android:weightSum=".5">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:alpha="0.6"
+            android:paddingLeft="20dp"
+            android:text="Permisis and equipment "
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:paddingRight="20dp"
+            android:paddingTop="01dp"
+            android:weightSum=".5">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_weight=".1"
+                android:src="@drawable/filledstar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewReviewsList"
+        android:layout_width="wrap_content"
+        android:layout_weight="0"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

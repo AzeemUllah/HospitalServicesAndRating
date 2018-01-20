@@ -1,9 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#ffffff"
     android:layout_height="match_parent"
-    tools:context="hospital.hospital.FacilityProfile">
+   android:weightSum="50"
+    android:orientation="vertical"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/facilityProfileHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facility Profile"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.5"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/facilityprofileheader"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:id="@+id/imageView" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout">
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/imgContact"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/profile_user"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgContact"
+                android:text="ABC Hospital"
+                android:paddingTop="1dp"
+                android:textColor="#ffffff"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:weightSum="10.6"
+            android:paddingTop="01dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="3/5"
+                android:layout_weight="5.2"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:text="3/5"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:src="@drawable/filledstar"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:src="@drawable/filledstar"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:src="@drawable/filledstar"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:src="@drawable/filledstar"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:src="@drawable/filledstar"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingLeft="4dp"
+                android:layout_weight=".2"
+                android:layout_gravity="center_vertical"
+                android:text="295 Reviews"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="3/5"
+                android:layout_weight=".1"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="16.4"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabIndicatorColor="@color/txtbborderbotom"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

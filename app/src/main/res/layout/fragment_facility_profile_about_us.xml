@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hospital.hospital.FacilityProfileResources.FragmentFacilityProfileAboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10.8">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION"
+        android:textSize="13dp"
+        android:layout_weight=".2"
+        android:alpha="0.7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azeem Ullah"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight=".3"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight=".2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/submenudivider"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPECIALITY"
+        android:textSize="13dp"
+        android:paddingTop="10dp"
+        android:alpha="0.7"
+        android:layout_weight=".2"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azeem Ullah"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight=".3"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight=".2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/submenudivider"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME OF ATTENDENT"
+        android:textSize="13dp"
+        android:paddingTop="10dp"
+        android:alpha="0.7"
+        android:layout_weight=".2"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azeem Ullah"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight=".3"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight=".2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/submenudivider"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:textSize="13dp"
+        android:alpha="0.7"
+        android:paddingTop="10dp"
+        android:layout_weight=".2"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azeem Ullah"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight=".3"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight=".2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/submenudivider"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEBSITE"
+        android:textSize="13dp"
+        android:alpha="0.7"
+        android:paddingTop="10dp"
+        android:layout_weight=".2"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azeem Ullah"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight=".3"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

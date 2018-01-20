@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="hospital.hospital.InviteFriends">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:src="@drawable/header"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@null"
+                />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Invite a Friend"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="#b3b3b3"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:textSize="16dp"
+            android:paddingBottom="4dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Search..."
+            android:background="@drawable/roundededittext"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reyclerview_contactsInvite"
+        android:layout_width="match_parent"
+        android:layout_weight="9.9"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

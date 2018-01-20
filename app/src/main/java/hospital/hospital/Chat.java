@@ -44,7 +44,7 @@ public class Chat extends AppCompatActivity implements View.OnClickListener {
 
 
 
-        prepareMovieData();
+        prepareChatData();
     }
 
     @Override
@@ -81,7 +81,7 @@ public class Chat extends AppCompatActivity implements View.OnClickListener {
 //        bottomSheetFragment.show(getSupportFragmentManager(), bottomSheetFragment.getTag());
 //    }
 
-    private void prepareMovieData() {
+    private void prepareChatData() {
         chatList.add(new ChatData("","","",""));
 
         ChatData bubble1 = new ChatData("message1", "1", "time1", "name1");

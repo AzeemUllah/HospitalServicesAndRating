@@ -7,6 +7,7 @@
     <color name="black_overlay">#66000000</color>
 
     <color name="txtbborderbotom">#2fab96</color>
+    <color name="appThemeColor">#2fab96</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#d1395c</color>
